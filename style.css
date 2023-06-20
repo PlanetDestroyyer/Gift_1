@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+}
+
+html{
+	font-size:25px;
+
+}
+h3{
+	/* padding-top: 50px; */
+	text-align: center;
+	text-transform: capitalize;
+	color: black;
+	font-family: 'Tangerine', serif;
+}
+.stApp{
+
+
+	#MainMenu {
+		visibility:hidden;
+	}
+	.css-cio0dv.e1g8pov61{
+		visibility: hidden;
+	}
+	.css-1avcm0n.e13qjvis2 {
+		visibility: hidden;
+	}
+	.css-10pw50.e1g8pov61{
+		visibility: hidden;
+	}
+	width: 100%;
+	height: 100vh;
+	animation: changebg 10s linear infinite;
+	display: grid;
+	background-color: #FFD700;
+}
+.New{
+	width: 100%;
+	height: 100%;
+	color: rgb(52, 60, 60);
+	border: 2px solid gold;
+	background-color: #350166;
+	border-radius: 20px;
+	display: grid;
+	place-items: center;
+
+}
+
+.New h1{
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	position: relative;
+	margin-right: 250px;
+	font-family: 'Muli', sans-serif;
+}
+
+h1::before{
+	font-family: 'Quicksand', sans-serif;
+	content: 'Anika';
+	width: 100%;
+	color: rgb(150, 183, 211);
+	position: absolute;
+	margin-left: 93%;
+	animation: slide 5s linear infinite;
+	-webkit-animation:slide 4s linear infinite ;
+	overflow: hidden;
+}
+@keyframes slide{
+	0%{
+		width: 0%;
+		content: 'Sahana';
+	}
+	50%{
+		width: 50%;
+	}
+	100%{
+		width: 0%;
+		content: 'Anika';
+	}
+}
+h4{
+	text-align: center;
+	font-family: Lobster;
+
+}
+.css-k7vsyb a{
+	color: #444444;
+	text-decoration: none;
+}
+p{
+	padding-top: 50px;
+	color: #4B3621;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
