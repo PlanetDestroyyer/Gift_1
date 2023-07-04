@@ -9,10 +9,12 @@
 	box-sizing:border-box;
 
 }
-
+a{
+	text-decoration: none;
+	color: aliceblue;
+}
 html{
 	font-size:25px;
-    justify-content: center;
 
 }
 h3{
@@ -56,7 +58,7 @@ h3{
 }
 
 .New h1{
-	color: #FFFAFA;
+	color: rgb(0, 0, 0);
 	text-transform: uppercase;
 	position: relative;
 	margin-right: 250px;
@@ -73,6 +75,24 @@ h1::before{
 	animation: slide 5s linear infinite;
 	-webkit-animation:slide 4s linear infinite ;
 	overflow: hidden;
+}
+p{
+	padding-top: 50px;
+	color: #4B3621;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+.text-gift{
+	text-align: center;
+	color: #444444;
+	font-size: 50px;
+}
+.row-widget.stButton{
+	text-align: center;
+}
+.text-gift a{
+	color: aliceblue;
 }
 @keyframes slide{
 	0%{
@@ -96,14 +116,4 @@ h4{
 	color: #444444;
 	text-decoration: none;
 }
-p{
-	padding-top: 50px;
-	color: #4B3621;
-	text-transform: uppercase;
-	text-align: center;
-	font-family: 'Pacifico', cursive;
-}
-.stButton {
-  text-align: center;
-  margin: auto;
-}
+
