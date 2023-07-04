@@ -102,3 +102,7 @@ p{
 	text-align: center;
 	font-family: 'Pacifico', cursive;
 }
+.stButton {
+  text-align: center;
+  margin: auto;
+}
